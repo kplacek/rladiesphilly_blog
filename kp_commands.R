@@ -1,0 +1,6 @@
+#install.packages("blogdown")
+library(blogdown)
+blogdown::install_hugo()
+blogdown::new_site()
+blogdown::serve_site()
+blogdown::new_post(title = "Test Post")
