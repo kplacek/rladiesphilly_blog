@@ -2,7 +2,7 @@
 title: "Welcome to the R-Ladies Philly blog!"
 author: "Katerina Placek"
 date: '2018-03-07'
-slug: welcome
+slug: 'welcome'
 output:
   blogdown::html_page:
     toc: true
