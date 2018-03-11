@@ -6,10 +6,19 @@
     <description>Recent content in Posts on R-Ladies Philly</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Who are the Philly R-Ladies? Analyzing Data from Google Forms</title>
+      <link>/2018/03/11/survey/</link>
+      <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/03/11/survey/</guid>
+      <description>Why do a new member survey? Step One: Get the data from google to R Step Two: Make some plots My takeaways   Why do a new member survey? One of the goals of R-Ladies Philly is for the group to be focused on the needs and interests of its members. With this goal in mind, we created a survey to query members about meeting logistics and R experience level.</description>
+    </item>
     
     <item>
       <title>Welcome to the R-Ladies Philly blog!</title>
