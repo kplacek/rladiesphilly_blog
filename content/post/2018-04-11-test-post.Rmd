@@ -1,0 +1,15 @@
+---
+title: Test Post
+author: ~
+date: '2018-04-11'
+slug: test-post
+categories: []
+tags: []
+output:
+  blogdown::html_page:
+    toc: true
+    fig_width: 6
+    dev: "svg"
+---
+
+make sure you specify to create an .Rmd when you do new_post and put html_page in output!
