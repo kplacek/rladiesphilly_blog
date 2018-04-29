@@ -6,27 +6,21 @@
     <description>Recent content in Posts on R-Ladies Philly</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Test Post</title>
-      <link>/2018/04/11/test-post/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      <title>April recap: Introduction to Text Mining with R</title>
+      <link>/2018/04/29/april-recap/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/04/11/test-post/</guid>
-      <description>make sure you specify to create an .Rmd when you do new_post and put html_page in output!</description>
-    </item>
-    
-    <item>
-      <title>Test Post</title>
-      <link>/2018/04/11/test-post/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/04/11/test-post/</guid>
-      <description></description>
+      <guid>/2018/04/29/april-recap/</guid>
+      <description>Our April Event! The April R-Ladies meetup was held on April 19th at Drexel. Thanks again to Drexel for hosting us and to DataCamp and the R consortium for sponsoring us!
+Our topic was an introduction to text mining in R using the first two chapters of “Text Mining with R” by fellow R-Lady(!) Julia Silge and David Robinson.
+There was a great group - including some new faces!
+ Amy took us through the key concepts of the chapter and then we broke into groups to do some exercises together.</description>
     </item>
     
     <item>
@@ -35,7 +29,7 @@
       <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/03/11/survey/</guid>
-      <description>Why do a new member survey?Step One: Get the data from google to RStep Two: Make some plotsMy takeawaysWhy do a new member survey?One of the goals of R-Ladies Philly is for the group to be focused on the needs and interests of its members. With this goal in mind, we created a survey to query members about meeting logistics and R experience level.</description>
+      <description>Why do a new member survey? Step One: Get the data from google to R Step Two: Make some plots My takeaways   Why do a new member survey? One of the goals of R-Ladies Philly is for the group to be focused on the needs and interests of its members. With this goal in mind, we created a survey to query members about meeting logistics and R experience level.</description>
     </item>
     
     <item>

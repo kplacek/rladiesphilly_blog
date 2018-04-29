@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meetups on R-Ladies Philly</title>
+    <link>/categories/meetups/</link>
+    <description>Recent content in Meetups on R-Ladies Philly</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/meetups/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>April recap: Introduction to Text Mining with R</title>
+      <link>/2018/04/29/april-recap/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/04/29/april-recap/</guid>
+      <description>Our April Event! The April R-Ladies meetup was held on April 19th at Drexel. Thanks again to Drexel for hosting us and to DataCamp and the R consortium for sponsoring us!
+Our topic was an introduction to text mining in R using the first two chapters of “Text Mining with R” by fellow R-Lady(!) Julia Silge and David Robinson.
+There was a great group - including some new faces!
+ Amy took us through the key concepts of the chapter and then we broke into groups to do some exercises together.</description>
+    </item>
+    
+  </channel>
+</rss>
