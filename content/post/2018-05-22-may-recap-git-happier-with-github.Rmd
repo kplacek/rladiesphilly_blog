@@ -44,8 +44,7 @@ Through this, members practiced:
 # Lightning Talk
 We ended by showing a GitHub repo illustrating 'real world' use of version control with R!
 
-R-Ladies Philly members Karla, Alice, Kristen, and myself recently used Git and GitHub with R to collaborate on a data analysis project for the Philadelphia Animal Welfare Society: https://github.com/kfettich/PAWS
-
+R-Ladies Philly members Karla, Alice, Kristen, and myself recently used Git and GitHub with R to collaborate on a data analysis project for the Philadelphia Animal Welfare Society. 
 
 # For more information
 To learn more, we recommend ["Happy Git and GitHub for the useR"](http://happygitwithr.com) and the free DataCamp course ["Introduction to Git for Data Science"](https://www.datacamp.com/courses/introduction-to-git-for-data-science).
