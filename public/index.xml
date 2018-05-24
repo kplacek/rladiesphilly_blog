@@ -6,10 +6,21 @@
     <description>Recent content on R-Ladies Philly</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>May recap: Git happieR with GitHub</title>
+      <link>/2018/05/22/may-recap/</link>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/22/may-recap/</guid>
+      <description>Our May Event! The May R-Ladies meetup took place on May 16, 2018 at Drexel’s LeBow School of Business. Thanks for hosting us again, Drexel, and thanks to our sponsors Datacamp and the R consortium!
+Our topic for May was version control using the popular resources Git and GitHub, and we focused on integrating version control with R.
+ Intro Darina and I started with an example to illustrate the utility of version control in collaborating on a document or project over time.</description>
+    </item>
     
     <item>
       <title>April recap: Introduction to Text Mining with R</title>
