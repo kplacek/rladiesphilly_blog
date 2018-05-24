@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on R-Ladies Philly</title>
-    <link>http://rladiesphilly.org/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on R-Ladies Philly</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://rladiesphilly.org/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Meetups</title>
-      <link>http://rladiesphilly.org/categories/meetups/</link>
+      <link>/categories/meetups/</link>
       <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://rladiesphilly.org/categories/meetups/</guid>
+      <guid>/categories/meetups/</guid>
       <description></description>
     </item>
     

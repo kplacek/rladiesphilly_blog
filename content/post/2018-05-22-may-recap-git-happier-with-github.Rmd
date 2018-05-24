@@ -20,7 +20,7 @@ Many popular word processing software packages employ "track changes" as a way t
 
 However, using something like track changes for version control is problematic!
 
-![Our attempt to use 'track changes' to collaborate on a document listing our favorite women from Philadelphia!](/img/RLadies_May1.JPG)
+![*Our attempt to use 'track changes' to collaborate on a document listing our favorite women from Philadelphia*](/img/RLadies_May1.JPG)
 
 In order to reference previous versions of a document, we would have to go through comment by comment to examine the changes a single collaborator made at a single point in time, or else revert back to the original version of the document and lose all changes!
 
@@ -32,10 +32,10 @@ After this introduction, Alice led an interactive demo so that R-Ladies Philly c
 
 ![](/img/RLadies_May2.jpg)
 
-Through this, members practiced: 
-  - configuring Git locally
-  - creating a Git repository
-  - commiting changes
+Through this, members practiced:  
+  - configuring Git locally  
+  - creating a Git repository  
+  - committing changes  
   - pushing work to a [shared repo](https://github.com/awalsh17/intro_git_live) on GitHub
 
 
