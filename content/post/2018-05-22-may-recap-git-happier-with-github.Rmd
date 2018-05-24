@@ -16,7 +16,7 @@ Our topic for May was version control using the popular resources Git and GitHub
 # Intro
 Darina and I started with an example to illustrate the utility of version control in collaborating on a document or project over time. 
 
-Many popular word processing software packages employ "track changes" as a way to edit a document ourselves or share with others for editing or feedback. 
+Many popular word processing software packages employ "track changes" as a way to edit a document or share with others for editing or feedback. 
 
 However, using something like track changes for version control is problematic!
 
@@ -24,7 +24,7 @@ However, using something like track changes for version control is problematic!
 
 In order to reference previous versions of a document, we would have to go through comment by comment to examine the changes a single collaborator made at a single point in time, or else revert back to the original version of the document and lose all changes!
 
-We turned to the whiteboard to demonstrate how you can use Git to keep track of the evolution of a document or project over time, and how you can use GitHub to collaborate with others on the evolution of a document (video coming soon!),
+We turned to the whiteboard to demonstrate how you can use Git to keep track of the evolution of a document or project over time, and how you can use GitHub to collaborate with others on the evolution of a document (video coming soon!).
 
 
 # Demo
@@ -33,10 +33,10 @@ After this introduction, Alice led an interactive demo so that R-Ladies Philly c
 ![](/img/RLadies_May2.jpg)
 
 Through this, members practiced: 
-+ configuring Git locally
-+ creating a Git repository
-+ commiting changes
-+ pushing work to a [shared repo](https://github.com/awalsh17/intro_git_live) on GitHub
+  - configuring Git locally
+  - creating a Git repository
+  - commiting changes
+  - pushing work to a [shared repo](https://github.com/awalsh17/intro_git_live) on GitHub
 
 
 [Alice's slides](https://github.com/rladies/meetup-presentations_philadelphia/tree/master/May2018) are posted on GitHub - this is a great resource to go through if you couldn't make it to the meeting!
