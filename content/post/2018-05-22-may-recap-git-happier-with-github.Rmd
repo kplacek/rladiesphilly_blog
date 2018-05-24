@@ -18,11 +18,13 @@ Darina and I started with an example to illustrate the utility of version contro
 
 Many popular word processing software packages employ "track changes" as a way to edit a document ourselves or share with others for editing or feedback. 
 
+However, using something like track changes for version control is problematic!
+
 ![Our attempt to use 'track changes' to collaborate on a document listing our favorite women from Philadelphia!](/img/RLadies_May1.JPG)
 
-However, using something like track changes for version control is problematic! In order to reference previous versions of a document, we would have to go through comment by comment to examine the changes a single collaborator made at a single point in time, or else revert back to the original version of the document and lose all changes!
+In order to reference previous versions of a document, we would have to go through comment by comment to examine the changes a single collaborator made at a single point in time, or else revert back to the original version of the document and lose all changes!
 
-We turned to the whiteboard to demonstrate how you can use Git to keep track of the evolution of a document or project over time, and how you can use GitHub to collaborate with others on the evolution of a document.
+We turned to the whiteboard to demonstrate how you can use Git to keep track of the evolution of a document or project over time, and how you can use GitHub to collaborate with others on the evolution of a document (video coming soon!),
 
 
 # Demo
@@ -42,7 +44,7 @@ Through this, members practiced:
 # Lightning Talk
 We ended by showing a GitHub repo illustrating 'real world' use of version control with R!
 
-R-Ladies Philly members Karla Fettich, Alice Walsh, Kristen Nicholson, and myself recently used Git and GitHub with R to collaborate on a data analysis project for the Philadelphia Animal Welfare Society: https://github.com/kfettich/PAWS
+R-Ladies Philly members Karla, Alice, Kristen, and myself recently used Git and GitHub with R to collaborate on a data analysis project for the Philadelphia Animal Welfare Society: https://github.com/kfettich/PAWS
 
 
 # For more information
