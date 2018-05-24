@@ -26,6 +26,8 @@ In order to reference previous versions of a document, we would have to go throu
 
 We turned to the whiteboard to demonstrate how you can use Git to keep track of the evolution of a document or project over time, and how you can use GitHub to collaborate with others on the evolution of a document (video coming soon!).
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5_sdaVXlKNM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 
 # Demo
 After this introduction, Alice led an interactive demo so that R-Ladies Philly could practice integrating Git and GitHub with R.
