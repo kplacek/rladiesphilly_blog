@@ -1,13 +1,10 @@
 ---
-title: "Who are the Philly R-Ladies? Analyzing Data from Google Forms"
-author: "Alice Walsh"
+title: Who are the Philly R-Ladies? Analyzing Data from Google Forms
+author: Alice Walsh
 date: '2018-03-11'
-slug: 'survey'
-output:
-  blogdown::html_page:
-    toc: true
-    fig_width: 6
-    dev: "svg"
+slug: survey
+categories: []
+tags: []
 ---
 
 ## Why do a new member survey?

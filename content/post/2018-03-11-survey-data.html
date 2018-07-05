@@ -1,24 +1,13 @@
 ---
-title: "Who are the Philly R-Ladies? Analyzing Data from Google Forms"
-author: "Alice Walsh"
+title: Who are the Philly R-Ladies? Analyzing Data from Google Forms
+author: Alice Walsh
 date: '2018-03-11'
-slug: 'survey'
-output:
-  blogdown::html_page:
-    toc: true
-    fig_width: 6
-    dev: "svg"
+slug: survey
+categories: []
+tags: []
 ---
 
 
-<div id="TOC">
-<ul>
-<li><a href="#why-do-a-new-member-survey">Why do a new member survey?</a></li>
-<li><a href="#step-one-get-the-data-from-google-to-r"><strong>Step One:</strong> Get the data from google to R</a></li>
-<li><a href="#step-two-make-some-plots"><strong>Step Two:</strong> Make some plots</a></li>
-<li><a href="#my-takeaways">My takeaways</a></li>
-</ul>
-</div>
 
 <div id="why-do-a-new-member-survey" class="section level2">
 <h2>Why do a new member survey?</h2>
@@ -59,7 +48,7 @@ ggplot(rsurvey, aes(x=`How would you describe your current R usage?`)) +
   ggtitle(question) + 
   xlab(&quot;&quot;) + 
   theme_minimal() </code></pre>
-<p><img src="/post/2018-03-11-survey-data_files/figure-html/q1-1.svg" width="576" /></p>
+<p><img src="/post/2018-03-11-survey-data_files/figure-html/q1-1.png" width="672" /></p>
 <p><strong>What location do you prefer for future meetings?</strong></p>
 <pre class="r"><code>question &lt;- &quot;What location do you prefer for future meetings?&quot;
 
@@ -73,7 +62,7 @@ ggplot(responses, aes(x=response)) +
   ggtitle(question) + 
   xlab(&quot;&quot;) + 
   theme_minimal()</code></pre>
-<p><img src="/post/2018-03-11-survey-data_files/figure-html/q2-1.svg" width="576" /></p>
+<p><img src="/post/2018-03-11-survey-data_files/figure-html/q2-1.png" width="672" /></p>
 <p><strong>What time do you prefer?</strong></p>
 <pre class="r"><code>question &lt;- &quot;What time do you prefer? (planning on one/month)&quot; 
 
@@ -142,7 +131,7 @@ ggplot(rsurvey, aes(x=`Are you interested in planning a future event or leading 
   ggtitle(question) + 
   theme_minimal() + 
   xlab(&quot;&quot;) </code></pre>
-<p><img src="/post/2018-03-11-survey-data_files/figure-html/q4-1.svg" width="576" /></p>
+<p><img src="/post/2018-03-11-survey-data_files/figure-html/q4-1.png" width="672" /></p>
 <p><strong>What types of events would you be interested in attending?</strong></p>
 <pre class="r"><code>question &lt;- &quot;What types of events would you be interested in attending (choose as many responses as you like)?&quot;
 # We need to transform the data to see how many times we got each response

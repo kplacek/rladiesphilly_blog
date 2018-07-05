@@ -1,6 +1,6 @@
 ---
 title: 'May recap: Git happieR with GitHub'
-author: "Katerina Placek"
+author: Katerina Placek
 date: '2018-05-22'
 slug: may-recap
 categories:

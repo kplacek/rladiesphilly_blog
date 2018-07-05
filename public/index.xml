@@ -1,76 +1,424 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R-Ladies Philly</title>
+    <title>R-Ladies Philly on R-Ladies Philly</title>
     <link>/</link>
-    <description>Recent content on R-Ladies Philly</description>
+    <description>Recent content in R-Ladies Philly on R-Ladies Philly</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2018 R-Ladies Philly</copyright>
+    <lastBuildDate>Thu, 05 Jul 2018 00:00:00 -0400</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>Privacy Policy</title>
+      <link>/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/privacy/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>June recap: Data Cleaning with R</title>
-      <link>/2018/06/21/june-recap/</link>
+      <link>/post/june-recap/</link>
       <pubDate>Thu, 21 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/06/21/june-recap/</guid>
-      <description>Our June meetup Our June meetup was about cleaning data using R. Data cleaning is the process of preparing your data for analysis; ensuring that it is technically correct and in the desired format. Data cleaning can often be more time-consuming than the actual analysis!
-We were live tweeting the event! Check out some tweets below.
-Introduction Darina and Katerina provided an introduction to data cleaning, with a focus on the process of ensuring the data is technically correct.</description>
+      <guid>/post/june-recap/</guid>
+      <description>&lt;div id=&#34;our-june-meetup&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Our June meetup&lt;/h1&gt;
+&lt;p&gt;Our June meetup was about cleaning data using R. Data cleaning is the process of preparing your data for analysis; ensuring that it is technically correct and in the desired format. Data cleaning can often be more time-consuming than the actual analysis!&lt;/p&gt;
+&lt;p&gt;We were live tweeting the event! Check out some tweets below.&lt;/p&gt;
+&lt;div id=&#34;introduction&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Darina and Katerina provided an introduction to data cleaning, with a focus on the process of ensuring the data is technically correct. &lt;a href=&#34;https://github.com/rladies/meetup-presentations_philadelphia/blob/master/June2018/The%20Exciting%20Presentation%20on%20Data%20Cleaning!.pptx&#34;&gt;Their presentation on data cleaning&lt;/a&gt; is posted on github. They referenced Chapters 1-2 of &lt;a href=&#34;https://cran.r-project.org/doc/contrib/de_Jonge+van_der_Loo-Introduction_to_data_cleaning_with_R.pdf&#34;&gt;“An Introduction to Data Cleaning with R”&lt;/a&gt; by Edwin de Jonge and Mark van der Loo, which we recommend you take a look at to learn more.&lt;/p&gt;
+&lt;p&gt;We covered topics such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Importing data into R&lt;/li&gt;
+&lt;li&gt;Best practice for inspecting data&lt;/li&gt;
+&lt;li&gt;Dealing with NAs versus NaNs&lt;/li&gt;
+&lt;li&gt;Variable types&lt;/li&gt;
+&lt;li&gt;Dealing with inconsistent data&lt;/li&gt;
+&lt;li&gt;Reshaping and pivoting data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The presentation was supplemented by a live demo on some raw data about Philly’s farmers’ markets. &lt;a href=&#34;https://github.com/rladies/mneetup-presentations_philadelphia/tree/master/June2018&#34;&gt;Check out the data and the code on github.&lt;/a&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+Using farmer&#39;s market data to learn about cleaning data with R tonight. Data set includes long, lat, address, address notes, day, time, accepts snap, major bus and subway routes data &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/RLadies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RLadies&lt;/a&gt; &lt;a href=&#34;https://t.co/QnecAfs43D&#34;&gt;pic.twitter.com/QnecAfs43D&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1009928201102077952?ref_src=twsrc%5Etfw&#34;&gt;June 21, 2018&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+&lt;div id=&#34;irem-celens-lightning-talk-cleaning-up-messy-genetics-data&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Irem Celen’s lightning talk: “Cleaning up Messy Genetics Data”&lt;/h2&gt;
+&lt;p&gt;After the introduction, &lt;a href=&#34;https://www.linkedin.com/in/irem-celen&#34;&gt;Irem Celen&lt;/a&gt; delivered a lightning talk about an important application of data cleaning: Messy genetics data! Irem is a Ph.D. candidate in Bioinformatics and Systems Biology at the University of Delaware. In her talk she outlined some common data cleaning issues for genetics data as well as some great solutions in R. &lt;!-- [Irem&#39;s slides]() are also posted on github.  --&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+Lifesaver R libraries for cleaning data: dplyr, tidyr, stringr, readr, data.table &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/RLadies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RLadies&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1009941191532711937?ref_src=twsrc%5Etfw&#34;&gt;June 21, 2018&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/center&gt;
+&lt;center&gt;
+&lt;img src=&#34;/img/june_lightning.JPG&#34; alt=&#34;Irem’s lightning talk&#34; /&gt;
+&lt;/center&gt;
+&lt;div id=&#34;wework&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;WeWork&lt;/h3&gt;
+&lt;p&gt;We would like to thank WeWork for hosting our June meetup!&lt;/p&gt;
+&lt;p&gt;“WeWork is a community for creators. We transform buildings into beautiful, collaborative workspaces and provide the infrastructure, services, events and technology so our members can focus on doing what they love. WeWork currently has 111 locations in 29 cities across the world with over 70,000 members. Book a tour at wework.com now!”&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This post was authored by Amy Goodwin Davies. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
       <title>May recap: Git happieR with GitHub</title>
-      <link>/2018/05/22/may-recap/</link>
+      <link>/post/may-recap/</link>
       <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/05/22/may-recap/</guid>
-      <description>Our May Event! The May R-Ladies meetup took place on May 16, 2018 at Drexel’s LeBow School of Business. Thanks for hosting us again, Drexel, and thanks to our sponsors Datacamp and the R consortium!
-Our topic for May was version control using the popular resources Git and GitHub, and we focused on integrating version control with R.
- Intro Darina and I started with an example to illustrate the utility of version control in collaborating on a document or project over time.</description>
+      <guid>/post/may-recap/</guid>
+      <description>&lt;div id=&#34;our-may-event&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Our May Event!&lt;/h1&gt;
+&lt;p&gt;The May R-Ladies meetup took place on May 16, 2018 at Drexel’s LeBow School of Business. Thanks for hosting us again, Drexel, and thanks to our sponsors Datacamp and the R consortium!&lt;/p&gt;
+&lt;p&gt;Our topic for May was version control using the popular resources Git and GitHub, and we focused on integrating version control with R.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;intro&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Intro&lt;/h1&gt;
+&lt;p&gt;Darina and I started with an example to illustrate the utility of version control in collaborating on a document or project over time.&lt;/p&gt;
+&lt;p&gt;Many popular word processing software packages employ “track changes” as a way to edit a document or share with others for editing or feedback.&lt;/p&gt;
+&lt;p&gt;However, using something like track changes for version control is problematic!&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/RLadies_May1.JPG&#34; alt=&#34;Our attempt to use track changes to collaborate on a document listing our favorite women from Philadelphia&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Our attempt to use ‘track changes’ to collaborate on a document listing our favorite women from Philadelphia&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;In order to reference previous versions of a document, we would have to go through comment by comment to examine the changes a single collaborator made at a single point in time, or else revert back to the original version of the document and lose all changes!&lt;/p&gt;
+&lt;p&gt;We turned to the whiteboard to demonstrate how you can use Git to keep track of the evolution of a document or project over time, and how you can use GitHub to collaborate with others on the evolution of a document&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/5_sdaVXlKNM&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div id=&#34;demo&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Demo&lt;/h1&gt;
+&lt;p&gt;After this introduction, Alice led an interactive demo so that R-Ladies Philly could practice integrating Git and GitHub with R.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/RLadies_May2.jpg&#34; /&gt;
+
+&lt;/div&gt;
+&lt;p&gt;Through this, members practiced:&lt;br /&gt;
+- configuring Git locally&lt;br /&gt;
+- creating a Git repository&lt;br /&gt;
+- committing changes&lt;br /&gt;
+- pushing work to a &lt;a href=&#34;https://github.com/awalsh17/intro_git_live&#34;&gt;shared repo&lt;/a&gt; on GitHub&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/rladies/meetup-presentations_philadelphia/tree/master/May2018&#34;&gt;Alice’s slides&lt;/a&gt; are posted on GitHub - this is a great resource to go through if you couldn’t make it to the meeting!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;lightning-talk&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Lightning Talk&lt;/h1&gt;
+&lt;p&gt;We ended by showing a GitHub repo illustrating ‘real world’ use of version control with R!&lt;/p&gt;
+&lt;p&gt;R-Ladies Philly members Karla, Alice, Kristen, and myself recently used Git and GitHub with R to collaborate on a data analysis project for the Philadelphia Animal Welfare Society.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;for-more-information&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;For more information&lt;/h1&gt;
+&lt;p&gt;To learn more, we recommend &lt;a href=&#34;http://happygitwithr.com&#34;&gt;“Happy Git and GitHub for the useR”&lt;/a&gt; and the free DataCamp course &lt;a href=&#34;https://www.datacamp.com/courses/introduction-to-git-for-data-science&#34;&gt;“Introduction to Git for Data Science”&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This post was authored by Katerina Placek. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
       <title>April recap: Introduction to Text Mining with R</title>
-      <link>/2018/04/29/april-recap/</link>
+      <link>/post/april-recap/</link>
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/04/29/april-recap/</guid>
-      <description>Our April Event! The April R-Ladies meetup was held on April 19th at Drexel. Thanks again to Drexel for hosting us and to DataCamp and the R consortium for sponsoring us!
-Our topic was an introduction to text mining in R using the first two chapters of “Text Mining with R” by fellow R-Lady(!) Julia Silge and David Robinson.
-There was a great group - including some new faces!
- Amy took us through the key concepts of the chapter and then we broke into groups to do some exercises together.</description>
+      <guid>/post/april-recap/</guid>
+      <description>&lt;div id=&#34;our-april-event&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Our April Event!&lt;/h1&gt;
+&lt;p&gt;The April R-Ladies meetup was held on April 19th at Drexel. Thanks again to Drexel for hosting us and to DataCamp and the R consortium for sponsoring us!&lt;/p&gt;
+&lt;p&gt;Our topic was an introduction to text mining in R using the first two chapters of “Text Mining with R” by fellow R-Lady(!) Julia Silge and David Robinson.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/rladiesapril2.png&#34; alt=&#34;There was a great group - including some new faces!&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;There was a great group - including some new faces!&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Amy took us through the key concepts of the chapter and then we broke into groups to do some exercises together. Here is an example analysis that we completed!&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;book.id &amp;lt;- 51713
+kafka &amp;lt;- gutenberg_download(51713)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Determining mirror for Project Gutenberg from http://www.gutenberg.org/robot/harvest&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Using mirror http://aleph.gutenberg.org&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;data(stop_words)
+
+tidy_kafka &amp;lt;- kafka %&amp;gt;%
+  mutate(linenumber = row_number()) %&amp;gt;%
+  unnest_tokens(word, text)%&amp;gt;%
+  anti_join(stop_words)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Joining, by = &amp;quot;word&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;kafka_sentiment &amp;lt;- tidy_kafka %&amp;gt;%
+  inner_join(get_sentiments(&amp;quot;bing&amp;quot;)) %&amp;gt;%
+  count(index = linenumber %/% 10, sentiment) %&amp;gt;%
+  spread(sentiment, n, fill = 0) %&amp;gt;%
+  mutate(sentiment = positive - negative)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Joining, by = &amp;quot;word&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# PLOT
+ggplot(kafka_sentiment, aes(index, sentiment, fill = sentiment &amp;gt; 0)) +
+  scale_fill_discrete(c(&amp;quot;light blue&amp;quot;,&amp;quot;red&amp;quot;)) + 
+  geom_col(show.legend = FALSE) +
+  ggtitle(&amp;quot;Sentiment in Kafka&amp;#39;s Metamorphosis&amp;quot;) + 
+  theme_bw()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-04-29-april-recap_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Next, we had an awesome lightning talk from Darina that went into TF-IDF. TF is Term Frequency and IDF is Inverse Document Frequency. Check out her slides to learn more.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/rladiesapril1.png&#34; alt=&#34;Darina presents on TF-IDF&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Darina presents on TF-IDF&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;for-more-information&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;For more information&lt;/h1&gt;
+&lt;p&gt;The materials from April are posted on GitHub:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/rladies/meetup-presentations_philadelphia&#34; class=&#34;uri&#34;&gt;https://github.com/rladies/meetup-presentations_philadelphia&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For those who want to learn more, I recommend continuing on in the excellent book, “Text Mining with R”:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.tidytextmining.com&#34; class=&#34;uri&#34;&gt;https://www.tidytextmining.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This post was authored by Alice Walsh. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
       <title>Who are the Philly R-Ladies? Analyzing Data from Google Forms</title>
-      <link>/2018/03/11/survey/</link>
+      <link>/post/survey/</link>
       <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/03/11/survey/</guid>
-      <description>Why do a new member survey? Step One: Get the data from google to R Step Two: Make some plots My takeaways   Why do a new member survey? One of the goals of R-Ladies Philly is for the group to be focused on the needs and interests of its members. With this goal in mind, we created a survey to query members about meeting logistics and R experience level.</description>
+      <guid>/post/survey/</guid>
+      <description>&lt;div id=&#34;why-do-a-new-member-survey&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Why do a new member survey?&lt;/h2&gt;
+&lt;p&gt;One of the goals of R-Ladies Philly is for the group to be focused on the needs and interests of its members. With this goal in mind, we created a survey to query members about meeting logistics and R experience level. This survey also provided a mechanism to collect emails in order to invite new members to our Slack channel.&lt;/p&gt;
+&lt;p&gt;If you want to join us and fill out the survey, you can find it here: &lt;a href=&#34;http://bit.ly/rladies-survey&#34; class=&#34;uri&#34;&gt;http://bit.ly/rladies-survey&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I thought it would be fun to share the results. Because this is R-Ladies, I also wanted to analyze and visualize the data in &lt;em&gt;R&lt;/em&gt;!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;step-one-get-the-data-from-google-to-r&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;strong&gt;Step One:&lt;/strong&gt; Get the data from google to R&lt;/h2&gt;
+&lt;p&gt;There are probably many ways to accomplish getting the data from a google form into R. The first things that came to my mind were:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Download a file from google to some local place on my computer&lt;/li&gt;
+&lt;li&gt;Use an R package to pull the data from google docs to R&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I decided to try the googlesheets package: &lt;a href=&#34;https://github.com/jennybc/googlesheets&#34; class=&#34;uri&#34;&gt;https://github.com/jennybc/googlesheets&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I found this package very user-friendly and easy to figure out. You will see below that a couple commands get the job done.&lt;/p&gt;
+&lt;p&gt;What I did here is not fully automated. I did visit the survey on docs.google.com and click the option to “View responses in Sheets”. In the resulting sheet, I removed email addresses to anonymize the respondents.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(googlesheets)
+suppressPackageStartupMessages(library(tidyverse))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The first step is to authenticate with google and see what sheets you have available. The following will open a browser window and ask you to tell google you want to look at your data.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;my_sheets &amp;lt;- gs_ls()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I had made a sheet called, “survey_responses_03_09_2018”, that holds the survey data. You can access it through the key: “1g3-M2fMF7_7pLGv7MttZ0DFjr9jd8jr6zQFxJAccEnw”&lt;/p&gt;
+&lt;p&gt;You can create the googlesheets objects with gs_key() and then pipe this to a data frame with gs_read().&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;rsurvey &amp;lt;- gs_key(&amp;quot;1g3-M2fMF7_7pLGv7MttZ0DFjr9jd8jr6zQFxJAccEnw&amp;quot;) %&amp;gt;%
+  gs_read()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As of March 9, there were 39 responses from the survey.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;step-two-make-some-plots&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;strong&gt;Step Two:&lt;/strong&gt; Make some plots&lt;/h2&gt;
+&lt;p&gt;For each question, let’s look at the results.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How would you describe your current R usage?&lt;/strong&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;question &amp;lt;- &amp;quot;How would you describe your current R usage?&amp;quot;
+rsurvey[[question]] &amp;lt;- gsub(&amp;#39;(.{1,30})(\\s|$)&amp;#39;, &amp;#39;\\1\n&amp;#39;, rsurvey[[question]])
+
+ggplot(rsurvey, aes(x=`How would you describe your current R usage?`)) +
+  geom_bar() +
+  coord_flip() + 
+  ggtitle(question) + 
+  xlab(&amp;quot;&amp;quot;) + 
+  theme_minimal() &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-03-11-survey-data_files/figure-html/q1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What location do you prefer for future meetings?&lt;/strong&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;question &amp;lt;- &amp;quot;What location do you prefer for future meetings?&amp;quot;
+
+responses &amp;lt;- rsurvey[, question, drop=FALSE] %&amp;gt;%
+  separate(question, sep = &amp;quot;, &amp;quot;, into = c(&amp;quot;first&amp;quot;, &amp;quot;second&amp;quot;, &amp;quot;third&amp;quot;), extra=&amp;quot;drop&amp;quot;) %&amp;gt;%
+  gather(choice, response, na.rm = TRUE)
+
+ggplot(responses, aes(x=response)) +
+  geom_bar() +
+  coord_flip() + 
+  ggtitle(question) + 
+  xlab(&amp;quot;&amp;quot;) + 
+  theme_minimal()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-03-11-survey-data_files/figure-html/q2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What time do you prefer?&lt;/strong&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;question &amp;lt;- &amp;quot;What time do you prefer? (planning on one/month)&amp;quot; 
+
+responses &amp;lt;- as.data.frame(table(rsurvey[[question]], exclude=NULL)) %&amp;gt;%
+  arrange(desc(Freq)) %&amp;gt;%
+  rename(Response = Var1)
+knitr::kable(responses,
+             caption = question)&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;caption&gt;&lt;span id=&#34;tab:q3&#34;&gt;Table 1: &lt;/span&gt;What time do you prefer? (planning on one/month)&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th align=&#34;left&#34;&gt;Response&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Freq&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Weekdays, 6-8pm&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Saturday, Sunday&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Weekdays, 6-8pm, Saturday&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Weekdays, 6-8pm, Saturday, Sunday&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Saturday, Thursdays after 6 pm&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Tuesday, 6-8pm&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Weekdays, 6-8pm, Saturday, NOT Mondays, Thursdays or Sundays.&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Weekdays, 6-8pm, Saturday, Sunday, Tuesdays and Wednesdays!&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Weekdays, 6-8pm, Sunday&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Weekdays, 6-8pm, Sunday, It really depends on my schedule… I work in Delaware, but if I know enough in advance, I can work from home that day.&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Are you interested in planning a future event or leading an event?&lt;/strong&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;question &amp;lt;- &amp;quot;Are you interested in planning a future event or leading an event?&amp;quot;
+
+ggplot(rsurvey, aes(x=`Are you interested in planning a future event or leading an event?`)) +
+  geom_bar() +
+  coord_flip() +
+  ggtitle(question) + 
+  theme_minimal() + 
+  xlab(&amp;quot;&amp;quot;) &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-03-11-survey-data_files/figure-html/q4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What types of events would you be interested in attending?&lt;/strong&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;question &amp;lt;- &amp;quot;What types of events would you be interested in attending (choose as many responses as you like)?&amp;quot;
+# We need to transform the data to see how many times we got each response
+responses &amp;lt;- rsurvey[[question]]
+choices &amp;lt;- c(&amp;quot;Introduction to R workshops&amp;quot;,
+             &amp;quot;Events with advice on careers in statistics and data science/career panels&amp;quot;,
+             &amp;quot;Presentations of research that uses R&amp;quot;,
+             &amp;quot;Community project&amp;quot;,
+             &amp;quot;Tutorials on advanced R topics&amp;quot;,
+             &amp;quot;Workshops on specific packages&amp;quot;,
+             &amp;quot;General networking&amp;quot;,
+             &amp;quot;Mentoring&amp;quot;,
+             &amp;quot;Paired code review&amp;quot;)
+response_table &amp;lt;- as.data.frame(sapply(choices, function(x) length(grep(x, responses)))) %&amp;gt;%
+  rownames_to_column()
+colnames(response_table) &amp;lt;- c(&amp;quot;Response&amp;quot;,&amp;quot;Freq&amp;quot;)
+response_table &amp;lt;- arrange(response_table, desc(Freq))
+  
+knitr::kable(response_table, caption = question)&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;caption&gt;&lt;span id=&#34;tab:q5&#34;&gt;Table 2: &lt;/span&gt;What types of events would you be interested in attending (choose as many responses as you like)?&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th align=&#34;left&#34;&gt;Response&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Freq&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Workshops on specific packages&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;31&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Presentations of research that uses R&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;28&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Tutorials on advanced R topics&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;28&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Events with advice on careers in statistics and data science/career panels&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Community project&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Introduction to R workshops&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;22&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Mentoring&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;20&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;General networking&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Paired code review&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;If you are interested in giving a talk or leading a workshop on something, what would it be?&lt;/strong&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;question &amp;lt;- &amp;quot;If you are interested in giving a talk or leading a workshop on something, what would it be?&amp;quot;
+
+nonempty_responses &amp;lt;- na.omit(rsurvey[[question]])
+print_this &amp;lt;- sapply(nonempty_responses, function(x) cat(&amp;#39;+ &amp;#39;,x,&amp;#39;\n&amp;#39;))&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Git&lt;/li&gt;
+&lt;li&gt;I could do an intro to R (basics, functions and loops). But would love to co-teach with someone else.&lt;/li&gt;
+&lt;li&gt;Not sure yet, but this is something I would be interested in doing in the future&lt;/li&gt;
+&lt;li&gt;Statistics-regression, GLM, machine learning, unsupervised/supervised methods, hypothesis testing, very basic text analytics&lt;/li&gt;
+&lt;li&gt;As of now, I guess I’d do something on the American Community Survey package, if folks would find it useful.&lt;/li&gt;
+&lt;li&gt;I am afraid I don’t know enough to give a talk.&lt;/li&gt;
+&lt;li&gt;Factor analysis, Conjoint analysis, hierarchical linear regression with R&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;my-takeaways&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;My takeaways&lt;/h2&gt;
+&lt;p&gt;Thank you to all the Philly R-Ladies who took the survey!&lt;/p&gt;
+&lt;p&gt;Our group represents a variety of experience levels - some have never used R and some are R experts. We even had some people volunteer to help with planning and content for future events, which I am really excited about!&lt;/p&gt;
+&lt;p&gt;Importantly, the survey confirmed that we will continue to meet in center city or university city (thank you to MakeOffices and Drexel who have hosted us).&lt;/p&gt;
+&lt;p&gt;As far as when we meet, weekdays appear to be the preference, but there is also a lot of interest in a weekend meetup. Our previous events have been on Wednesdays, but we plan to mix it up so that people with conflicts every Wednesday can attend. One practical consideration I have encountered is that it is harder to find a venue for a weekend meetup. Maybe someone wants to email us at &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt; with location ideas?&lt;/p&gt;
+&lt;p&gt;This process got me thinking… let’s plan to do another survey at the end of the year to see how the group has evolved.&lt;/p&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
       <title>Welcome to the R-Ladies Philly blog!</title>
-      <link>/2018/03/07/welcome/</link>
+      <link>/post/welcome-to-the-r-ladies-philly-blog/</link>
       <pubDate>Wed, 07 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/03/07/welcome/</guid>
-      <description>Hello and thank you for visiting our brand-new R-Ladies Philly blog! For our first post, we are introducing the founding principles of our chapter and our goals moving forward. With that in mind, if you R ready, here we go!
-As you may already know, R-Ladies Philly is a chapter of the broader R-Ladies global organization. R-Ladies global seeks to promote gender diversity in the coding community by providing a collaborative network of R learners, mentors, and leaders.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
-      
-      <guid>/about/</guid>
-      <description>This is a &amp;ldquo;hello world&amp;rdquo; example website for the blogdown package. The theme was forked from @jrutheiser/hugo-lithium-theme and modified by Yihui Xie.</description>
+      <guid>/post/welcome-to-the-r-ladies-philly-blog/</guid>
+      <description>&lt;p&gt;Hello and thank you for visiting our brand-new R-Ladies Philly blog! For our first post, we are introducing the founding principles of our chapter and our goals moving forward. With that in mind, if you &lt;em&gt;R&lt;/em&gt; ready, here we go!&lt;/p&gt;
+&lt;p&gt;As you may already know, R-Ladies Philly is a chapter of the broader &lt;a href=&#34;https://rladies.org/&#34;&gt;R-Ladies global organization&lt;/a&gt;. R-Ladies global seeks to promote gender diversity in the coding community by providing a collaborative network of R learners, mentors, and leaders. This goal has been instantiated through the formation of regional R-Ladies chapters through Meetup with the express purpose of encouraging, inspiring, and empowering the minorities currently underrepresented in the R community. We formed the R-Ladies Philly chapter in 2018 because we think our city and the diversity of people in it are pretty great!&lt;/p&gt;
+&lt;p&gt;With this background in mind, R-Ladies Philly is a free, community-driven group that is open to all levels of R users. While our group name does have ‘Ladies’ in the title, we welcome all individuals who share our values. Our monthly meetings are skills-focused, with encouragement of interdisciplinary statistical and coding methods through application to open-source datasets pertaining to Philadelphia and the surrounding area. This approach allows us to provide hands-on workshops, leadership opportunities to share skills and expertise, and networking opportunities to meet and connect with local and global R-Ladies.&lt;/p&gt;
+&lt;p&gt;Because we are community driven, we provide volunteer opportunities for our members and encourage members to take on leadership roles. If you are interested in how you can help, contact us at &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;. To get involved, join our &lt;a href=&#34;https://www.meetup.com/rladies-philly/&#34;&gt;MeetUp page&lt;/a&gt;, attend our meetings, follow us on &lt;a href=&#34;https://twitter.com/RLadiesPhilly&#34;&gt;Twitter&lt;/a&gt; (and soon GitHub), and, of course, keep track of our progress on our blog!&lt;/p&gt;
+</description>
     </item>
     
   </channel>

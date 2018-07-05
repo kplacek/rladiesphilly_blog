@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on R-Ladies Philly</title>
+    <link>/home/</link>
+    <description>Recent content in Homes on R-Ladies Philly</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 R-Ladies Philly</copyright>
+    <lastBuildDate>Thu, 05 Jul 2018 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/home/about/</link>
+      <pubDate>Thu, 05 Jul 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/home/about/</guid>
+      <description>About R-Ladies Philly is part of a world-wide organization to promote gender diversity in the R community.
+R-Ladies Philly is a free, community-driven group that is open to all levels of R users. While our group name does have ‘Ladies’ in the title, we welcome all individuals who share our values. Our monthly meetings are skills-focused, with encouragement of interdisciplinary statistical and coding methods.
+Join the R-Ladies Philly Slack! Email philly@rladies.</description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Board</title>
+      <link>/home/board/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/home/board/</guid>
+      <description> Meet our board members Coming Soon! </description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/home/contact/</guid>
+      <description>Reach out by email if would like to help plan, sponsor, or host an event. We welcome volunteers!</description>
+    </item>
+    
+  </channel>
+</rss>
