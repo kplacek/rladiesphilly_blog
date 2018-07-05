@@ -42,12 +42,13 @@ Join the R-Ladies Philly Slack! Email philly@rladies.</description>
     </item>
     
     <item>
-      <title>Tags</title>
-      <link>/home/tags/</link>
-      <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
+      <title>Sponsors</title>
+      <link>/home/support/</link>
+      <pubDate>Thu, 05 Jul 2018 00:00:00 -0400</pubDate>
       
-      <guid>/home/tags/</guid>
-      <description></description>
+      <guid>/home/support/</guid>
+      <description> R-Ladies Philly is fortunate to receive support from several amazing organizations. Contact us to learn more about becoming a sponsor.
+RStudio Data Camp R consortium </description>
     </item>
     
     <item>
@@ -57,6 +58,15 @@ Join the R-Ladies Philly Slack! Email philly@rladies.</description>
       
       <guid>/home/contact/</guid>
       <description>Reach out by email if would like to help plan, sponsor, or host an event. We welcome volunteers!</description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>/home/tags/</guid>
+      <description></description>
     </item>
     
   </channel>
