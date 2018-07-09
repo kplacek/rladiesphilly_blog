@@ -18,9 +18,9 @@
       <pubDate>Thu, 21 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/june-recap/</guid>
-      <description>Our June meetup Our June meetup was about cleaning data using R. Data cleaning is the process of preparing your data for analysis; ensuring that it is technically correct and in the desired format. Data cleaning can often be more time-consuming than the actual analysis!
+      <description>Our June meetupOur June meetup was about cleaning data using R. Data cleaning is the process of preparing your data for analysis; ensuring that it is technically correct and in the desired format. Data cleaning can often be more time-consuming than the actual analysis!
 We were live tweeting the event! Check out some tweets below.
-Introduction Darina and Katerina provided an introduction to data cleaning, with a focus on the process of ensuring the data is technically correct.</description>
+IntroductionDarina and Katerina provided an introduction to data cleaning, with a focus on the process of ensuring the data is technically correct.</description>
     </item>
     
     <item>
@@ -29,9 +29,9 @@ Introduction Darina and Katerina provided an introduction to data cleaning, with
       <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/may-recap/</guid>
-      <description>Our May Event! The May R-Ladies meetup took place on May 16, 2018 at Drexel’s LeBow School of Business. Thanks for hosting us again, Drexel, and thanks to our sponsors Datacamp and the R consortium!
+      <description>Our May Event!The May R-Ladies meetup took place on May 16, 2018 at Drexel’s LeBow School of Business. Thanks for hosting us again, Drexel, and thanks to our sponsors Datacamp and the R consortium!
 Our topic for May was version control using the popular resources Git and GitHub, and we focused on integrating version control with R.
- Intro Darina and I started with an example to illustrate the utility of version control in collaborating on a document or project over time.</description>
+IntroDarina and I started with an example to illustrate the utility of version control in collaborating on a document or project over time.</description>
     </item>
     
     <item>
