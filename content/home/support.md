@@ -1,5 +1,5 @@
 +++
-# About/Biography widget.
+# Support widget.
 widget = "custom"
 active = true
 date = 2018-07-05T00:00:00
