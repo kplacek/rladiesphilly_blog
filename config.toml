@@ -264,6 +264,11 @@ enableGitInfo = false
   weight = 3
   
 [[menu.main]]
+  name = "News"
+  url = "#news"
+  weight = 4
+  
+[[menu.main]]
   name = "Support"
   url = "#support"
   weight = 5
