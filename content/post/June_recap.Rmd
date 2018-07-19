@@ -27,7 +27,7 @@ We covered topics such as:
 * Dealing with inconsistent data
 * Reshaping and pivoting data
 
-The presentation was supplemented by a live demo on some raw data about Philly's farmers' markets. [Check out the data and the code on github.](https://github.com/rladies/mneetup-presentations_philadelphia/tree/master/June2018)
+The presentation was supplemented by a live demo on some raw data about Philly's farmers' markets. [Check out the data and the code on github.](https://github.com/rladies/meetup-presentations_philadelphia/tree/master/June2018)
 
 <center>
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Using farmer&#39;s market data to learn about cleaning data with R tonight. Data set includes long, lat, address, address notes, day, time, accepts snap, major bus and subway routes data <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://twitter.com/hashtag/RLadies?src=hash&amp;ref_src=twsrc%5Etfw">#RLadies</a> <a href="https://t.co/QnecAfs43D">pic.twitter.com/QnecAfs43D</a></p>&mdash; R-Ladies Philly (@RLadiesPhilly) <a href="https://twitter.com/RLadiesPhilly/status/1009928201102077952?ref_src=twsrc%5Etfw">June 21, 2018</a></blockquote>
