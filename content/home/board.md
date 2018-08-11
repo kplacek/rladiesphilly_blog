@@ -21,6 +21,11 @@ weight = 3
 <img src="/img/Karla.jpeg";/>
 Karla works as Head of Algorithm Development at Orchestrall, where she leads behavioral data analytics efforts and predictive model development for healthcare IT innovation. Currently, Karla uses R to create a new product that uses machine learning and predictive analytics to serve as a companion to nurse aides in their care for the elderly. Originally from Romania, Karla completed her B.A. in social and cognitive psychology at Jacobs University Bremen in Germany, her M.A. in social sciences at the University of Chicago and her Ph.D. in psychology and neuroscience at Temple University in Philadelphia. 
 
+## Amy Goodwin Davies, PhD:
+<img src="/img/Amy.jpg";/>
+Amy is a linguist-by-training and aspiring data scientist. In particular, she is excited about developing her skills in text mining and natural language processing. Amy completed her PhD in Linguistics at the University of Pennsylvania, where her research focused on the grammatical representations involved with word recognition. Amy is originally from the UK. Before moving to Philadelphia in 2012, she completed her undergraduate studies at the University of Edinburgh.
+
+
 ## Katerina Placek, MSc
 <img src="/img/Katerina.jpeg";/>
 Katerina is a PhD candidate in Neuroscience at the University of Pennsylvania. She uses R in her research to statistically evaluate genetic risk factors for frontotemporal disease in amyotrophic lateral sclerosis and to visualize results. Katerina started an R-Learning group in her lab at the University of Pennsylvania, and was recruited by Alice to help start R-Ladies Philly!
