@@ -13,6 +13,16 @@
     
     
     <item>
+      <title>August recap: Data Cleaning with R, Part 2</title>
+      <link>/post/aug-recap/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/aug-recap/</guid>
+      <description>Data cleaning is the process of preparing your data for analysis; ensuring that it is technically correct and in the desired format. Data cleaning can often be more time-consuming than the actual analysis! This was our second meetup on the topic. Click here for a recap of our first data cleaning meetup in June.
+Reshaping data We began with an introduction to reshaping data from Alice. The presentation was based on the DataCamp tutorial Long to Wide Data in R.</description>
+    </item>
+    
+    <item>
       <title>June recap: Data Cleaning with R</title>
       <link>/post/june-recap/</link>
       <pubDate>Thu, 21 Jun 2018 00:00:00 +0000</pubDate>
