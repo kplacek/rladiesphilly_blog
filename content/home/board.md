@@ -17,6 +17,13 @@ weight = 3
 
 # Meet our board members
 
+## Darina Chudnovskaya, MSc
+<img src="/img/Darina.jpg";/>
+Darina is a data analyst at a hospital in the Philadelphia area. She uses R to run 
+statistical tests and build models for epidemiological studies with the goal of developing
+patient interventions for disease prevention. She grew up in Philadelphia. Darina joined 
+R Ladies Philly to meet other R enthusiasts. 
+
 ## Karla Fettich, PhD 
 <img src="/img/Karla.jpeg";/>
 Karla works as Head of Algorithm Development at Orchestrall, where she leads behavioral data analytics efforts and predictive model development for healthcare IT innovation. Currently, Karla uses R to create a new product that uses machine learning and predictive analytics to serve as a companion to nurse aides in their care for the elderly. Originally from Romania, Karla completed her B.A. in social and cognitive psychology at Jacobs University Bremen in Germany, her M.A. in social sciences at the University of Chicago and her Ph.D. in psychology and neuroscience at Temple University in Philadelphia. 
