@@ -15,7 +15,7 @@ Katie started off by providing a broad overview of how blogdown works. Blogdown 
 ## How To
 Next, Katie live-coded website creation in R using blogdown. Each attendee worked in parallel on their laptops, so that each R-Ladies Philly member left with their own website. Here, we go over some of the essential steps in this process!
 
-First, we installed blogdown and Hugo. Hugo is the default site generator in blogdown. 
+First, we installed blogdown and Hugo. Hugo is the default site generator in blogdown: 
 ```{r, eval = FALSE}
 #install and load blogdown
 install.packages(blogdown)
@@ -25,7 +25,7 @@ library(blogdown)
 blogdown::install_hugo()
 ```
 
-Next, we each chose a Hugo [theme]( https://themes.gohugo.io/) for our website and used this theme to create a new, blank site in our current working directory. 
+Next, we each chose a Hugo [theme]( https://themes.gohugo.io/) for our website and used this theme to create a new, blank site in our current working directory:
 ```{r, eval = FALSE}
 #create blank website with the Hugo 'Academic' theme
 blogdown::new_site(theme = "gcushen/hugo-academic")
@@ -50,7 +50,7 @@ Then, Katie showed us how to customize our website focusing on the `config.toml`
 file.edit('config.toml')
 ```
 
-...And the `content/` folder that - as you might have guessed - includes the content of our website.
+...And the `content/` folder that - as you might have guessed - includes the content of our website:
 ```{r, eval = FALSE}
 list.files("content")
 ```
