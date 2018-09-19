@@ -67,11 +67,16 @@ To end our workshop and inspire further refinement of our websites, Katie showed
 
 ## Resources
 Katie suggests the following resources to learn more:
-*(her meetup summary)[https://github.com/rladies/meetup-presentations_philadelphia/blob/master/September2018/meetup-summary.md]
-*(This post from Alison Presmanes Hill)[https://alison.rbind.io/post/up-and-running-with-blogdown/]
-*(This post from Mara Averick)[https://maraaverick.rbind.io/2017/10/keeping-up-with-blogdown/]
-*(This guide from R-Ladies Melbourne)[https://rladies-melb-blogdown.netlify.com/#9]
-*and (the blogdown online book)[https://bookdown.org/yihui/blogdown/]
+
+* [her meetup summary](https://github.com/rladies/meetup-presentations_philadelphia/blob/master/September2018/meetup-summary.md)
+
+* [This post from Alison Presmanes Hill](https://alison.rbind.io/post/up-and-running-with-blogdown/)
+
+* [This post from Mara Averick] (https://maraaverick.rbind.io/2017/10/keeping-up-with-blogdown/)
+
+* [This guide from R-Ladies Melbourne](https://rladies-melb-blogdown.netlify.com/#9)
+
+* and [the blogdown online book](https://bookdown.org/yihui/blogdown/)
 
 
 Thanks again to Katie for leading this informative meetup, and to Penn Dental for hosting R-Ladies Philly!
