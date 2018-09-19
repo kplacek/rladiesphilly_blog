@@ -58,7 +58,7 @@ For example, if we were to create a blogpost for our website using blogdown, thi
 blogdown::new_post(title = "my_first_post")
 ```
 
-Once created, your website files can be uploaded to any webserver. We use [github](https://github.com/) for rladiesphilly.org  - to learn more about web hosting and version control, see our [May meetup recap](http://rladiesphilly.org/post/may-recap/). You can see the code used to generate this website hosted on our [blog github repo] [here](https://github.com/kplacek/rladiesphilly_blog).
+Once created, your website files can be uploaded to any webserver. We use [github](https://github.com/) for rladiesphilly.org  - to learn more about web hosting and version control, see our [May meetup recap](http://rladiesphilly.org/post/may-recap/). You can see the code used to generate this website hosted on our blog github repo [here](https://github.com/kplacek/rladiesphilly_blog).
 
 You can use [GitHub Pages](https://pages.github.com/) to deploy your website directly from your github repo, or a service like [Netlify](https://www.netlify.com/) (to customize your domain name, you may need to purchase a domain, e.g. from [google](https://domains.google/)).
 
@@ -72,7 +72,7 @@ Katie suggests the following resources to learn more:
 
 * [This post from Alison Presmanes Hill](https://alison.rbind.io/post/up-and-running-with-blogdown/)
 
-* [This post from Mara Averick] (https://maraaverick.rbind.io/2017/10/keeping-up-with-blogdown/)
+* [This post from Mara Averick](https://maraaverick.rbind.io/2017/10/keeping-up-with-blogdown/)
 
 * [This guide from R-Ladies Melbourne](https://rladies-melb-blogdown.netlify.com/#9)
 
