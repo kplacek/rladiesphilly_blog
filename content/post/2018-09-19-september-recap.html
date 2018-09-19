@@ -1,6 +1,6 @@
 ---
-title: September Recap
-author: ~
+title: "September Recap: Learn to make a website with R and blogdown!"
+author: 'Katerina Placek'
 date: '2018-09-19'
 slug: september-recap
 categories: []
@@ -18,27 +18,27 @@ tags: []
 <h2>How To</h2>
 <p>Next, Katie live-coded website creation in R using blogdown. Each attendee worked in parallel on their laptops, so that each R-Ladies Philly member left with their own website. Here, we go over some of the essential steps in this process!</p>
 <p>First, we installed blogdown and Hugo. Hugo is the default site generator in blogdown:</p>
-<pre class="r"><code>#install and load blogdown
+<pre class="r"><code># install and load blogdown
 install.packages(blogdown)
 library(blogdown)
 
-#use blogdown to install hugo
+# use blogdown to install hugo
 blogdown::install_hugo()</code></pre>
 <p>Next, we each chose a Hugo <a href="https://themes.gohugo.io/">theme</a> for our website and used this theme to create a new, blank site in our current working directory:</p>
-<pre class="r"><code>#create blank website with the Hugo &#39;Academic&#39; theme
+<pre class="r"><code># create blank website with the Hugo &#39;Academic&#39; theme
 blogdown::new_site(theme = &quot;gcushen/hugo-academic&quot;)
 
-#view the directory tree
+# view the directory tree
 data.tree::as.Node(data.frame(pathString = path)))
 
-#view your website layout in the RStudio Viewer
+# view your website layout in the RStudio Viewer
 blogdown::serve_site()</code></pre>
 <p>Aside from aesthetic preferences, choosing an appropriate theme for your website involves consideration of your website’s purpose. For example, is it an academic website, a blog, or a general informational website (e.g. for a company or business)? Chances are, there is a theme to best suit your website’s purpose.</p>
 <p>The files for your website now ‘live’ in your current working directory:</p>
-<pre class="r"><code>#see all the files that blogdown::new_site() created
+<pre class="r"><code># see all the files that blogdown::new_site() created
 list.files()</code></pre>
 <p>Then, Katie showed us how to customize our website focusing on the <code>config.toml</code> file that configures the settings for our website:</p>
-<pre class="r"><code>#open the config.toml file to edit
+<pre class="r"><code># open the config.toml file to edit
 file.edit(&#39;config.toml&#39;)</code></pre>
 <p>…And the <code>content/</code> folder that - as you might have guessed - includes the content of our website:</p>
 <pre class="r"><code>list.files(&quot;content&quot;)</code></pre>

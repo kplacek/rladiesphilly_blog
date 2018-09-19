@@ -1,6 +1,6 @@
 ---
-title: September Recap
-author: ~
+title: "September Recap: Learn to make a website with R and blogdown!"
+author: 'Katerina Placek'
 date: '2018-09-19'
 slug: september-recap
 categories: []
@@ -17,36 +17,36 @@ Next, Katie live-coded website creation in R using blogdown. Each attendee worke
 
 First, we installed blogdown and Hugo. Hugo is the default site generator in blogdown: 
 ```{r, eval = FALSE}
-#install and load blogdown
+# install and load blogdown
 install.packages(blogdown)
 library(blogdown)
 
-#use blogdown to install hugo
+# use blogdown to install hugo
 blogdown::install_hugo()
 ```
 
 Next, we each chose a Hugo [theme]( https://themes.gohugo.io/) for our website and used this theme to create a new, blank site in our current working directory:
 ```{r, eval = FALSE}
-#create blank website with the Hugo 'Academic' theme
+# create blank website with the Hugo 'Academic' theme
 blogdown::new_site(theme = "gcushen/hugo-academic")
 
-#view the directory tree
+# view the directory tree
 data.tree::as.Node(data.frame(pathString = path)))
 
-#view your website layout in the RStudio Viewer
+# view your website layout in the RStudio Viewer
 blogdown::serve_site()
 ```
 Aside from aesthetic preferences, choosing an appropriate theme for your website involves consideration of your website's purpose. For example, is it an academic website, a blog, or a general informational website (e.g. for a company or business)? Chances are, there is a theme to best suit your website's purpose. 
 
 The files for your website now 'live' in your current working directory:
 ```{r, eval = FALSE}
-#see all the files that blogdown::new_site() created
+# see all the files that blogdown::new_site() created
 list.files()
 ```
 
 Then, Katie showed us how to customize our website focusing on the `config.toml` file that configures the settings for our website: 
 ```{r, eval = FALSE}
-#open the config.toml file to edit
+# open the config.toml file to edit
 file.edit('config.toml')
 ```
 
