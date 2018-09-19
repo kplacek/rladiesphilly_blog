@@ -68,7 +68,7 @@ You can use [GitHub Pages](https://pages.github.com/) to deploy your website dir
 
 
 ## Website Example
-To end our workshop and inspire further refinement of our websites, Katie showed us her [personal website](www.katiescranton.com) created using blogdown.
+To end our workshop and inspire further refinement of our websites, Katie showed us her [personal website](https://www.katiescranton.com) created using blogdown.
 
 
 
