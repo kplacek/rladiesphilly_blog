@@ -23,7 +23,6 @@ First, we installed blogdown and Hugo. Hugo is the default site generator in blo
 ```{r, eval = FALSE}
 install.packages(blogdown)
 library(blogdown)
-
 blogdown::install_hugo()
 ```
 
@@ -78,12 +77,13 @@ Katie suggests the following resources to learn more:
 
 * her meetup [summary](https://github.com/rladies/meetup-presentations_philadelphia/blob/master/September2018/meetup-summary.md)
 
-* This [post](https://alison.rbind.io/post/up-and-running-with-blogdown/) from Alison Presmanes Hill
+* this [post](https://alison.rbind.io/post/up-and-running-with-blogdown/) from Alison Presmanes Hill
 
-* This [post](https://maraaverick.rbind.io/2017/10/keeping-up-with-blogdown/) from Mara Averick
+* this [post](https://maraaverick.rbind.io/2017/10/keeping-up-with-blogdown/) from Mara Averick
 
-* This [guide](https://rladies-melb-blogdown.netlify.com/#9)
+* this [guide](https://rladies-melb-blogdown.netlify.com/#9)
  from R-Ladies Melbourne
+ 
 * and [the blogdown online book](https://bookdown.org/yihui/blogdown/)
 
 
