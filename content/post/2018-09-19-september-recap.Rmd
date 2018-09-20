@@ -31,9 +31,6 @@ Next, we each chose a Hugo [theme]( https://themes.gohugo.io/) for our website a
 # create blank website with the Hugo 'Academic' theme
 blogdown::new_site(theme = "gcushen/hugo-academic")
 
-# view the directory tree
-data.tree::as.Node(data.frame(pathString = path)))
-
 # view your website layout in the RStudio Viewer
 blogdown::serve_site()
 ```
