@@ -15,7 +15,7 @@ A dashboard is an information management tool that tracks, analyzes and displays
 
 ![](/img/mine1.JPG)
 
-## Getting started with shiny
+## Getting started with Shiny
 Next, Mine moved on to how Shiny apps (like the dashboard described above) actually work.
 
 From a high-level view, you first create an app locally (i.e. the computer serving your app is your computer) and then deploy your app on a web server to be accessible to others (i.e. the computer serving your app is a web server).
