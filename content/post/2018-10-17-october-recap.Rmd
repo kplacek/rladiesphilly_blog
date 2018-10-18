@@ -11,7 +11,7 @@ Shiny is an R Package that combines the computational power of R with the intera
 ## Building interactive dashboards with Shiny and flexdashboard
 A dashboard is an information management tool that tracks, analyzes and displays metrics and key data points, and can be static (i.e. an html page) or dynamic (i.e. user input updates data displayed in real time). Mine shared an example dashboard she created using Shiny and the flexdashboard pacakage to display data on Women in the United Nations (UN)...
 
-![Women in the UN Dashboard](/Users/katerinaplacek/Documents/R/RLadies_Philly/rladiesphilly_blog/static/img/mine1.JPG)
+![Women in the UN Dashboard](/img/mine1.JPG)
 
 ... And gave Meetup attendees hands-on experience editing dashboard content by changing the time period of data shown in the dashboard.
 
@@ -24,7 +24,7 @@ Mine explained that the 'anatomy' of the Shiny app you create is comprised of tw
 * User interface - controls the app's layout and appearance, and is what the user sees on the web
 * Server function - contains the instructions to the web server needed to build the app
 
-![Relationship between Server and UI](/Users/katerinaplacek/Documents/R/RLadies_Philly/rladiesphilly_blog/static/img/server_user.png)
+![Relationship between Server and UI](/img/server_user.png)
 
 After this introduction, meetup attendees practiced editing both app layout and server-generated content using data from the National Health and Nutrition Examination Survey.
 
