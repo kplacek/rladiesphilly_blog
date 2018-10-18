@@ -9,10 +9,10 @@ categories: []
 
 
 
-<p>Shiny is an R Package that combines the computational power of R with the interactivity of the web to enable users to create interactive web apps (and dashboards!) in R. For our November meetup, Dr. Mine Çetinkaya-Rundel led a workshop introducing the basics of building dashboards using Shiny, and a demo on transitioning from dashboards to standalone apps.</p>
+<p><a href="https://shiny.rstudio.com/">Shiny</a> is an R Package that combines the computational power of R with the interactivity of the web to enable users to create interactive web apps (and dashboards!) in R. For our November meetup, <a href="https://en.wikipedia.org/wiki/Mine_%C3%87etinkaya-Rundel">Dr. Mine Çetinkaya-Rundel</a> led a workshop introducing the basics of building dashboards using Shiny, and a demo on transitioning from dashboards to standalone apps. In case you missed the Meetup, all materials (code! slides! more!) can be found on the <a href="https://github.com/mine-cetinkaya-rundel/rladies-phl-shiny">github repo</a> Mine created.</p>
 <div id="building-interactive-dashboards-with-shiny-and-flexdashboard" class="section level2">
 <h2>Building interactive dashboards with Shiny and flexdashboard</h2>
-<p>A dashboard is an information management tool that tracks, analyzes and displays metrics and key data points, and can be static (i.e. an html page) or dynamic (i.e. user input updates data displayed in real time). Mine shared an example dashboard she created using Shiny and the flexdashboard pacakage to display data on Women in the United Nations (UN)…</p>
+<p>A dashboard is an information management tool that tracks, analyzes and displays metrics and key data points, and can be static (i.e. an html page) or dynamic (i.e. user input updates data displayed in real time). Mine shared an example dashboard she created using Shiny and the <a href="https://rmarkdown.rstudio.com/flexdashboard/">flexdashboard</a> pacakage to display data on Women in the United Nations (UN)…</p>
 <div class="figure">
 <img src="/img/mine1.JPG" alt="Women in the UN Dashboard" />
 <p class="caption">Women in the UN Dashboard</p>
@@ -21,9 +21,13 @@ categories: []
 </div>
 <div id="getting-started-with-shiny" class="section level2">
 <h2>Getting started with shiny</h2>
-<p>Next, Mine moved on to how Shiny apps (like the dashboard on Women in the UN) actually work.</p>
+<p>Next, Mine moved on to how Shiny apps (like the dashboard described above) actually work.</p>
 <p>From a high-level view, you first create an app locally (i.e. the computer serving your app is your computer) and then deploy your app on a web server to be accessible to others (i.e. the computer serving your app is a web server).</p>
-<p>Mine explained that the ‘anatomy’ of the Shiny app you create is comprised of two core components necessary for deployment on a web server: * User interface - controls the app’s layout and appearance, and is what the user sees on the web * Server function - contains the instructions to the web server needed to build the app</p>
+<p>Mine explained that the ‘anatomy’ of the Shiny app you create is comprised of two core components necessary for deployment on a web server:</p>
+<ul>
+<li><p>User interface - controls the app’s layout and appearance, and is what the user sees on the web</p></li>
+<li><p>Server function - contains the instructions to the web server needed to build the app</p></li>
+</ul>
 <div class="figure">
 <img src="/img/server_user.png" alt="Relationship between Server and UI" />
 <p class="caption">Relationship between Server and UI</p>
@@ -33,7 +37,7 @@ categories: []
 </div>
 <div id="understanding-reactivity" class="section level2">
 <h2>Understanding reactivity</h2>
-<p>Last, Mine taught us about reactivity - how our Apps ‘react’ to information input by the user.</p>
+<p>Last, Mine taught us about reactivity - how our apps ‘react’ to information input by the user.</p>
 <p>User inputs can be saved as variables, and used in subsequent code to modify app features. For example, a user could input the year of data they want to see plotted, and the app would to only plot data corresponding to the input year. Importantly, the render functions used to create the output of an app (e.g. a table, plot, etc.) update in response to reactive values - this enables the interactivity of Shiny apps.</p>
 </div>
 <div id="temple-university-center-city" class="section level2">
