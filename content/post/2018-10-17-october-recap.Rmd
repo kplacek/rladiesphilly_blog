@@ -9,11 +9,11 @@ categories: []
 [Shiny](https://shiny.rstudio.com/) is an R Package that combines the computational power of R with the interactivity of the web to enable users to create interactive web apps (and dashboards!) in R. For our October meetup, [Dr. Mine Çetinkaya-Rundel](https://en.wikipedia.org/wiki/Mine_%C3%87etinkaya-Rundel) led a workshop introducing the basics of building dashboards using Shiny, and a demo on transitioning from dashboards to standalone apps. In case you missed the Meetup, all materials (code! slides! more!) can be found on the [github repo](https://github.com/mine-cetinkaya-rundel/rladies-phl-shiny) Mine created.
 
 ## Building interactive dashboards with Shiny and flexdashboard
-A dashboard is an information management tool that tracks, analyzes and displays metrics and key data points, and can be static (i.e. an html page) or dynamic (i.e. user input updates data displayed in real time). Mine shared an example dashboard she created using Shiny and the [flexdashboard](https://rmarkdown.rstudio.com/flexdashboard/) pacakage to display data on Women in the United Nations (UN)...
-
-![*Women in the UN Dashboard*](/img/mine1.JPG)
+A dashboard is an information management tool that tracks, analyzes and displays metrics and key data points, and can be static (i.e. an html page) or dynamic (i.e. user input updates data displayed in real time). Mine shared a dashboard she created using Shiny and the [flexdashboard](https://rmarkdown.rstudio.com/flexdashboard/) pacakage to display statistics on gender in United Nations (UN) representatives: [https://gallery.shinyapps.io/un-women-dash/](https://gallery.shinyapps.io/un-women-dash/)
 
 ... And gave Meetup attendees hands-on experience editing dashboard content by changing the time period of data shown in the dashboard.
+
+![](/img/mine1.JPG)
 
 ## Getting started with shiny
 Next, Mine moved on to how Shiny apps (like the dashboard described above) actually work.
