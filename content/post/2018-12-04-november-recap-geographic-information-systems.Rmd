@@ -34,7 +34,7 @@ We worked with two datasets during this workshop:
 * 2) Tabular data from the publicly-available American Community Survey dataset (ACS), which contains information about the US and its people with known spatial components at national, regional, and local levels. 
 
 ##Using R to represent spatial data visually
-Using tidycensus data, we read in spatial data from tidycensus using the rgdal package and plotted it using base R:
+Using tidycensus data, we read in spatial data from tidycensus using the [rgdal](https://cran.r-project.org/web/packages/rgdal/index.html) package and plotted it using default settings:
 
 ```{r Read Spatial Data, echo=T, eval = F}
 # Read in the shapefile, and see file structure
@@ -79,9 +79,9 @@ acs_spatial <-
   sp::merge(x = census_boundaries, y = acs_data, by = "GEOID")
 ```
 
-We then learned how to incorporate spatial data from tidycensus with spatial data from ACS - this is essential for plotting geographically precise datapoints, for instance on a map. Mary emphasized the importance of each dataset's coordinate reference system, or CRF, for mapping. The CRF specififes 'where in the world' your spatial data exists, and can be expressed in different coordinate systems (see [espi.io](https://espg.io) for a reference list of coordinate systems).
+We then learned how to incorporate spatial data from tidycensus with spatial data from ACS - this is essential for plotting geographically precise datapoints, for instance on a map. Mary emphasized the importance of each dataset's coordinate reference system, or CRS, for mapping. The CRS specififes 'where in the world' your spatial data exists, and can be expressed in different coordinate systems (see [espi.io](https://espg.io) for a reference list of coordinate systems).
 
-To find which CRF your spatial data are stored in, we use the following function and the CRF is listed after "+ellps"; Here, our data are in the GRS80 reference system:
+To find which CRS your spatial data are stored in, we use the following function and the CRS is listed after "+ellps"; Here, our data are in the GRS80 reference system:
 ```{r include = F, eval = T}
 Phila_County <-
   readOGR(dsn = "/Users/katerinaplacek/Documents/R/RLadies_Philly/spatial/Spatial_Workshop_Data/Philadelphia_County_Boundary",
@@ -98,7 +98,7 @@ acs_philly@proj4string
 Phila_County@proj4string
 ```
 
-Importantly, in order for two datasets to be joined together, they must have the same CRF! In our data, this is the case, but if you needed to change the CRF of your datasets, you can do so using the following command:
+Importantly, in order for two datasets to be joined together, they must have the same CRS! In our data, this is the case, but if you needed to change the CRS of your datasets, you can do so using the following command:
 ```{r include = F, eval = T}
 WGS84 <- "+init=epsg:4326"
 ```
@@ -107,7 +107,7 @@ WGS84 <- "+init=epsg:4326"
 Phila_County <- sp::spTransform(x = Phila_County, CRSobj = WGS84)
 acs_spatial <- sp::spTransform(x = acs_spatial, CRSobj = WGS84)
 ```
-Here, we have put both the Phila_County data from tidycensus and the ACS spatial data in the 'WGS84' CRF which is commonly used in GIS.
+Here, we have put both the Phila_County data from tidycensus and the ACS spatial data in the 'WGS84' CRS which is commonly used in GIS.
 
 And then, you can join the two datasets together:
 ```{r}
@@ -262,7 +262,7 @@ tm_shape(acs_philly) +
 ![](/img/spatial_3.png)
 
 For an even more visually-appealing map, we can add in a 'basemap' to the background:
-```{r}
+```{r message = F}
 tmap_mode("view") # View for interactive
 
 tm_shape(acs_philly) + 
