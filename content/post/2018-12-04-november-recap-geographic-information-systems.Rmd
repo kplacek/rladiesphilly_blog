@@ -176,14 +176,14 @@ acs_philly@data$MedIncQuart <-
 ```
 
 Here, we plot the medium income for each census tract in the Philadelphia area:
-```{r include = T, eval = T}
+```{r include = T, eval = F}
 tm_shape(acs_philly) + tm_fill("MedInc_Est", palette = "Reds")
 ```
-
+![](/img/spatial_1.png)
 
 We can further alter the presentation of this data by using built-in features from the tmap package:
 ```{r}
-tm_shape(acs_philly, eval = TRUE) + 
+tm_shape(acs_philly, eval = F, include = T) + 
   #Setting the color and style of the mapping
   tm_fill(
   "MedInc_Est",
@@ -205,7 +205,7 @@ tm_shape(acs_philly, eval = TRUE) +
     frame = FALSE
   )
 ```
-
+![](/img/spatial_2.png)
 
 ...And we can add in further spatial data from SEPTA to plot ACS data relative to census spatial data AND public transportation access:
 
@@ -224,7 +224,7 @@ SEPTA_RR <- sp::spTransform(x = SEPTA_RR, CRSobj = WGS84)
 SEPTA_Staions <- sp::spTransform(x = SEPTA_Staions, CRSobj = WGS84)
 ```
 
-```{r}
+```{r include =T, eval = F}
 # Plot
 tm_shape(acs_philly) + 
   
@@ -260,7 +260,7 @@ tm_shape(acs_philly) +
     shape = 16
   )
 ```
-
+![](/img/spatial_3.png)
 
 For an even more visually-appealing map, we can add in a 'basemap' to the background:
 ```{r}
