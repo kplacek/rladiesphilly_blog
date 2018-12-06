@@ -225,7 +225,6 @@ SEPTA_Staions <- sp::spTransform(x = SEPTA_Staions, CRSobj = WGS84)
 ```
 
 ```{r include =T, eval = F}
-# Plot
 tm_shape(acs_philly) + 
   
   #Setting the color and style of the mapping
