@@ -36,7 +36,7 @@ categories: []
 </div>
 <div id="using-r-to-represent-spatial-data-visually" class="section level2">
 <h2>Using R to represent spatial data visually</h2>
-<p>Using tidycensus data, we read in spatial data from tidycensus using the rgdal package and plotted it using base R:</p>
+<p>Using tidycensus data, we read in spatial data from tidycensus using the <a href="https://cran.r-project.org/web/packages/rgdal/index.html">rgdal</a> package and plotted it using default settings:</p>
 <pre class="r"><code># Read in the shapefile, and see file structure
 census_boundaries &lt;- rgdal::readOGR(&quot;Census_Boundaries&quot;,layer = &quot;cb_2017_42_tract_500k&quot;)</code></pre>
 <pre><code>## OGR data source with driver: ESRI Shapefile 
@@ -106,8 +106,8 @@ census_boundaries &lt;- rgdal::readOGR(&quot;Census_Boundaries&quot;,layer = &qu
 <pre class="r"><code># The spatial object needs to be listed first in the merge function for the result to be a spatial object.
 acs_spatial &lt;-
   sp::merge(x = census_boundaries, y = acs_data, by = &quot;GEOID&quot;)</code></pre>
-<p>We then learned how to incorporate spatial data from tidycensus with spatial data from ACS - this is essential for plotting geographically precise datapoints, for instance on a map. Mary emphasized the importance of each dataset’s coordinate reference system, or CRF, for mapping. The CRF specififes ‘where in the world’ your spatial data exists, and can be expressed in different coordinate systems (see <a href="https://espg.io">espi.io</a> for a reference list of coordinate systems).</p>
-<p>To find which CRF your spatial data are stored in, we use the following function and the CRF is listed after “+ellps”; Here, our data are in the GRS80 reference system:</p>
+<p>We then learned how to incorporate spatial data from tidycensus with spatial data from ACS - this is essential for plotting geographically precise datapoints, for instance on a map. Mary emphasized the importance of each dataset’s coordinate reference system, or CRS, for mapping. The CRS specififes ‘where in the world’ your spatial data exists, and can be expressed in different coordinate systems (see <a href="https://espg.io">espi.io</a> for a reference list of coordinate systems).</p>
+<p>To find which CRS your spatial data are stored in, we use the following function and the CRS is listed after “+ellps”; Here, our data are in the GRS80 reference system:</p>
 <pre class="r"><code># The ACS spatial data
 acs_philly@proj4string</code></pre>
 <pre><code>## CRS arguments:
@@ -119,10 +119,10 @@ Phila_County@proj4string</code></pre>
 ## +lat_0=39.33333333333334 +lon_0=-77.75 +x_0=600000.0000000001
 ## +y_0=0 +datum=NAD83 +units=us-ft +no_defs +ellps=GRS80
 ## +towgs84=0,0,0</code></pre>
-<p>Importantly, in order for two datasets to be joined together, they must have the same CRF! In our data, this is the case, but if you needed to change the CRF of your datasets, you can do so using the following command:</p>
+<p>Importantly, in order for two datasets to be joined together, they must have the same CRS! In our data, this is the case, but if you needed to change the CRS of your datasets, you can do so using the following command:</p>
 <pre class="r"><code>Phila_County &lt;- sp::spTransform(x = Phila_County, CRSobj = WGS84)
 acs_spatial &lt;- sp::spTransform(x = acs_spatial, CRSobj = WGS84)</code></pre>
-<p>Here, we have put both the Phila_County data from tidycensus and the ACS spatial data in the ‘WGS84’ CRF which is commonly used in GIS.</p>
+<p>Here, we have put both the Phila_County data from tidycensus and the ACS spatial data in the ‘WGS84’ CRS which is commonly used in GIS.</p>
 <p>And then, you can join the two datasets together:</p>
 <pre class="r"><code>acs_philly &lt;-
   raster::intersect(Phila_County,
@@ -137,7 +137,7 @@ acs_spatial &lt;- sp::spTransform(x = acs_spatial, CRSobj = WGS84)</code></pre>
 <img src="/img/spatial_1.png" />
 
 </div>
-<p>We can further alter the presentation of this data by using built-in features from the tmap package:</p>
+<p>We can further alter the presentation of this data by using built-in features from the <a href="https://cran.r-project.org/web/packages/tmap/vignettes/tmap-getstarted.html">tmap</a> package:</p>
 <pre class="r"><code>tm_shape(acs_philly) + 
   #Setting the color and style of the mapping
   tm_fill(
