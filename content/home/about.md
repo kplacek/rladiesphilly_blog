@@ -9,7 +9,7 @@ weight = 1
 
 +++
 
-# About
+# About Us
 
 R-Ladies Philly is part of a world-wide organization to promote gender diversity in the R community. 
 
