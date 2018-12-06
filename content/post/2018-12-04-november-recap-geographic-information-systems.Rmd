@@ -182,8 +182,8 @@ tm_shape(acs_philly) + tm_fill("MedInc_Est", palette = "Reds")
 ![](/img/spatial_1.png)
 
 We can further alter the presentation of this data by using built-in features from the tmap package:
-```{r}
-tm_shape(acs_philly, eval = F, include = T) + 
+```{r eval = F, include = T}
+tm_shape(acs_philly) + 
   #Setting the color and style of the mapping
   tm_fill(
   "MedInc_Est",
