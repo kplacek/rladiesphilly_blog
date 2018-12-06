@@ -34,7 +34,7 @@ We worked with two datasets during this workshop:
 * 2) Tabular data from the publicly-available American Community Survey dataset (ACS), which contains information about the US and its people with known spatial components at national, regional, and local levels. 
 
 ##Using R to represent spatial data visually
-Using tidycensus data, we read in spatial data from tidycensus using the [rgdal](https://cran.r-project.org/web/packages/rgdal/index.html) package and plotted it using default settings:
+We read in spatial data from tidycensus using the [rgdal](https://cran.r-project.org/web/packages/rgdal/index.html) package and plotted it using default settings:
 
 ```{r Read Spatial Data, echo=T, eval = F}
 # Read in the shapefile, and see file structure
@@ -98,7 +98,7 @@ acs_philly@proj4string
 Phila_County@proj4string
 ```
 
-Importantly, in order for two datasets to be joined together, they must have the same CRS! In our data, this is the case, but if you needed to change the CRS of your datasets, you can do so using the following command:
+Importantly, in order for two datasets to be joined together, they must have the same CRS! In our data, this is the case, but if you needed to change the CRS of your datasets, you can do so using the [sp](https://cran.r-project.org/web/packages/sp/index.html) package:
 ```{r include = F, eval = T}
 WGS84 <- "+init=epsg:4326"
 ```
@@ -109,7 +109,7 @@ acs_spatial <- sp::spTransform(x = acs_spatial, CRSobj = WGS84)
 ```
 Here, we have put both the Phila_County data from tidycensus and the ACS spatial data in the 'WGS84' CRS which is commonly used in GIS.
 
-And then, you can join the two datasets together:
+Once they were in the same CRS, we used [raster](https://cran.r-project.org/web/packages/raster/index.html) to join the two datasets:
 ```{r}
 acs_philly <-
   raster::intersect(Phila_County,
