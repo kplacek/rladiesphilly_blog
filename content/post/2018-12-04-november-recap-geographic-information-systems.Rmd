@@ -179,7 +179,7 @@ Here, we plot the medium income for each census tract in the Philadelphia area:
 ```{r include = T, eval = T}
 tm_shape(acs_philly) + tm_fill("MedInc_Est", palette = "Reds")
 ```
-![](/img/spatial_1.png)
+
 
 We can further alter the presentation of this data by using built-in features from the tmap package:
 ```{r}
@@ -205,7 +205,7 @@ tm_shape(acs_philly, eval = TRUE) +
     frame = FALSE
   )
 ```
-![](/img/spatial_2.png)
+
 
 ...And we can add in further spatial data from SEPTA to plot ACS data relative to census spatial data AND public transportation access:
 
@@ -260,7 +260,7 @@ tm_shape(acs_philly) +
     shape = 16
   )
 ```
-![](/img/spatial_3.png)
+
 
 For an even more visually-appealing map, we can add in a 'basemap' to the background:
 ```{r}
@@ -301,7 +301,7 @@ tm_shape(acs_philly) +
   ) +
   tm_basemap(providers$OpenStreetMap.BlackAndWhite)
 ```
-![](/img/spatial_4.png)
+
 
 ## Resources
 Mary has kindly provided the materials from the November meetup on her [github](https://github.com/MaryELennon/RLadies_Spatial), and she suggests the following spatial datasets if you're interested in exploring more:
