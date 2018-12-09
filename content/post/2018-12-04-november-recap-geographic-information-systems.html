@@ -36,7 +36,7 @@ categories: []
 </div>
 <div id="using-r-to-represent-spatial-data-visually" class="section level2">
 <h2>Using R to represent spatial data visually</h2>
-<p>Using tidycensus data, we read in spatial data from tidycensus using the <a href="https://cran.r-project.org/web/packages/rgdal/index.html">rgdal</a> package and plotted it using default settings:</p>
+<p>We read in spatial data from tidycensus using the <a href="https://cran.r-project.org/web/packages/rgdal/index.html">rgdal</a> package and plotted it using default settings:</p>
 <pre class="r"><code># Read in the shapefile, and see file structure
 census_boundaries &lt;- rgdal::readOGR(&quot;Census_Boundaries&quot;,layer = &quot;cb_2017_42_tract_500k&quot;)</code></pre>
 <pre><code>## OGR data source with driver: ESRI Shapefile 
@@ -119,11 +119,11 @@ Phila_County@proj4string</code></pre>
 ## +lat_0=39.33333333333334 +lon_0=-77.75 +x_0=600000.0000000001
 ## +y_0=0 +datum=NAD83 +units=us-ft +no_defs +ellps=GRS80
 ## +towgs84=0,0,0</code></pre>
-<p>Importantly, in order for two datasets to be joined together, they must have the same CRS! In our data, this is the case, but if you needed to change the CRS of your datasets, you can do so using the following command:</p>
+<p>Importantly, in order for two datasets to be joined together, they must have the same CRS! In our data, this is the case, but if you needed to change the CRS of your datasets, you can do so using the <a href="https://cran.r-project.org/web/packages/sp/index.html">sp</a> package:</p>
 <pre class="r"><code>Phila_County &lt;- sp::spTransform(x = Phila_County, CRSobj = WGS84)
 acs_spatial &lt;- sp::spTransform(x = acs_spatial, CRSobj = WGS84)</code></pre>
 <p>Here, we have put both the Phila_County data from tidycensus and the ACS spatial data in the ‘WGS84’ CRS which is commonly used in GIS.</p>
-<p>And then, you can join the two datasets together:</p>
+<p>Once they were in the same CRS, we used <a href="https://cran.r-project.org/web/packages/raster/index.html">raster</a> to join the two datasets:</p>
 <pre class="r"><code>acs_philly &lt;-
   raster::intersect(Phila_County,
                     acs_spatial)</code></pre>
