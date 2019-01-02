@@ -1,10 +1,10 @@
 ---  
-title: "December Recap: Introduction to Machine Learning"  
-author: 'Amy Goodwin Davies'  
-date: '2018-12-13'  
-slug: december-recap  
-categories: []  
-tags: []  
+title: 'December Recap: Introduction to Machine Learning'
+author: "Amy Goodwin Davies"
+date: '2018-12-13'
+slug: december-recap
+tags: []
+categories: []
 ---  
 
 We collaborated with [Women in Kaggle Philly](https://www.meetup.com/Women-in-Kaggle-Philly/) to provide an Introduction to Machine Learning (ML).  
