@@ -12,7 +12,7 @@ Data cleaning is the process of preparing your data for analysis; ensuring that 
 
 ## Reshaping data
 
-We began with an introduction to reshaping data from Alice. The presentation was based on the DataCamp tutorial [Long to Wide Data in R](https://www.datacamp.com/community/tutorials/long-wide-data-R). Data can be **long format** (*one measurement per row*) and **wide format** (*many measurements in one row*). It it is important to be able to convert between the two formats as different functions require different formats. In R, there are a variety of functions which can be used for this task:
+We began with an introduction to reshaping data from Alice. The presentation was based on the DataCamp tutorial [Long to Wide Data in R](https://www.datacamp.com/community/tutorials/long-wide-data-R). Data can be **long format** (*one measurement per row*) and **wide format** (*many measurements in one row*). It is important to be able to convert between the two formats as different functions require different formats. In R, there are a variety of functions which can be used for this task:
 
 <center>
 | Function | Package | To long format | To wide format |

@@ -30,7 +30,7 @@ Karla works as Head of Algorithm Development at Orchestrall, where she leads beh
 
 ## Amy Goodwin Davies, PhD
 <img src="/img/Amy.jpg";/>
-Amy is a linguist-by-training and aspiring data scientist. In particular, she is excited about developing her skills in text mining and natural language processing. Amy completed her PhD in Linguistics at the University of Pennsylvania, where her research focused on the grammatical representations involved with word recognition. Amy is originally from the UK. Before moving to Philadelphia in 2012, she completed her undergraduate studies at the University of Edinburgh.
+Amy is a linguist-by-training and a data scientist. In particular, she is excited about developing her skills in text mining and natural language processing. Amy completed her PhD in Linguistics at the University of Pennsylvania, where her research focused on the grammatical representations involved with word recognition. Amy is originally from the UK. Before moving to Philadelphia in 2012, she completed her undergraduate studies at the University of Edinburgh.
 
 
 ## Katerina Placek, MSc
