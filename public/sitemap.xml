@@ -5,7 +5,16 @@
     
     <url>
     
-      <loc>/post/november-recap/</loc>
+      <loc>http://rladiesphilly.org/post/december-recap/</loc>
+      <lastmod>2019-01-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://rladiesphilly.org/post/november-recap/</loc>
       <lastmod>2018-12-04T00:00:00+00:00</lastmod>
     </url>
     
@@ -14,7 +23,7 @@
     
     <url>
     
-      <loc>/post/october-recap/</loc>
+      <loc>http://rladiesphilly.org/post/october-recap/</loc>
       <lastmod>2018-10-17T00:00:00+00:00</lastmod>
     </url>
     
@@ -23,7 +32,7 @@
     
     <url>
     
-      <loc>/post/september-recap/</loc>
+      <loc>http://rladiesphilly.org/post/september-recap/</loc>
       <lastmod>2018-09-19T00:00:00+00:00</lastmod>
     </url>
     
@@ -32,7 +41,7 @@
     
     <url>
     
-      <loc>/post/aug-recap/</loc>
+      <loc>http://rladiesphilly.org/post/aug-recap/</loc>
       <lastmod>2018-08-15T00:00:00+00:00</lastmod>
     </url>
     
@@ -41,7 +50,7 @@
     
     <url>
     
-      <loc>/privacy/</loc>
+      <loc>http://rladiesphilly.org/privacy/</loc>
       <lastmod>2018-06-28T00:00:00-04:00</lastmod>
     </url>
     
@@ -50,7 +59,7 @@
     
     <url>
     
-      <loc>/post/june-recap/</loc>
+      <loc>http://rladiesphilly.org/post/june-recap/</loc>
       <lastmod>2018-06-21T00:00:00+00:00</lastmod>
     </url>
     
@@ -59,7 +68,7 @@
     
     <url>
     
-      <loc>/post/may-recap/</loc>
+      <loc>http://rladiesphilly.org/post/may-recap/</loc>
       <lastmod>2018-05-22T00:00:00+00:00</lastmod>
     </url>
     
@@ -68,7 +77,7 @@
     
     <url>
     
-      <loc>/post/april-recap/</loc>
+      <loc>http://rladiesphilly.org/post/april-recap/</loc>
       <lastmod>2018-04-29T00:00:00+00:00</lastmod>
     </url>
     
@@ -77,7 +86,7 @@
     
     <url>
     
-      <loc>/post/survey/</loc>
+      <loc>http://rladiesphilly.org/post/survey/</loc>
       <lastmod>2018-03-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -86,7 +95,7 @@
     
     <url>
     
-      <loc>/post/welcome-to-the-r-ladies-philly-blog/</loc>
+      <loc>http://rladiesphilly.org/post/welcome-to-the-r-ladies-philly-blog/</loc>
       <lastmod>2018-03-07T00:00:00+00:00</lastmod>
     </url>
     
@@ -95,7 +104,7 @@
     
     <url>
     
-      <loc>/tags/academic/</loc>
+      <loc>http://rladiesphilly.org/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00-05:00</lastmod>
     </url>
     
@@ -104,7 +113,7 @@
     
     <url>
     
-      <loc>/post/</loc>
+      <loc>http://rladiesphilly.org/post/</loc>
       <lastmod>2017-01-01T00:00:00-05:00</lastmod>
     </url>
     
@@ -113,15 +122,7 @@
     
     <url>
     
-      <loc>/post/december-recap/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/</loc>
+      <loc>http://rladiesphilly.org/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -130,7 +131,7 @@
     
     <url>
     
-      <loc>/categories/meetups/</loc>
+      <loc>http://rladiesphilly.org/categories/meetups/</loc>
       <lastmod>2018-08-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -140,7 +141,7 @@
     
     <url>
     
-      <loc>/publication_types/</loc>
+      <loc>http://rladiesphilly.org/publication_types/</loc>
       <priority>0</priority>
     </url>
     
@@ -149,7 +150,7 @@
     
     <url>
     
-      <loc>/</loc>
+      <loc>http://rladiesphilly.org/</loc>
       <lastmod>2018-07-05T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>
@@ -159,7 +160,7 @@
     
     <url>
     
-      <loc>/tags/</loc>
+      <loc>http://rladiesphilly.org/tags/</loc>
       <lastmod>2017-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
