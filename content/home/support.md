@@ -13,10 +13,18 @@ weight = 5
 R-Ladies Philly is fortunate to receive support from several amazing organizations. Contact us to learn more about becoming a sponsor.
 
 #### [RStudio](https://www.rstudio.com/)
-<img src="/img/Rstudio.png" style="width:20%";/>
-
-#### [Data Camp](http://datacamp.com/)
-<img src="/img/DataCamp.png" style="width:20%";/>
 
 #### [R consortium](https://www.r-consortium.org/)
-<img src="/img/RConsortium.png" style="width:20%";/>
+
+#### [WeWork](https://www.wework.com/)
+
+#### [Penn Dental](https://www.dental.upenn.edu/)
+
+#### [Temple University Center City](www.temple.edu/tucc/)
+
+#### [Drexel LeBow College of Business](https://www.lebow.drexel.edu/)
+
+#### [Penn Institute for Urban Research](https://penniur.upenn.edu/instruction/graduate/)
+
+#### [Orchestrall](https://www.orchestrallinc.com/)
+
