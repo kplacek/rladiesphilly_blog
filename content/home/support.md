@@ -20,7 +20,7 @@ R-Ladies Philly is fortunate to receive support from several amazing organizatio
 
 #### [Penn Dental](https://www.dental.upenn.edu/)
 
-#### [Temple University Center City](www.temple.edu/tucc/)
+#### [Temple University Center City](https://www.temple.edu/tucc/)
 
 #### [Drexel LeBow College of Business](https://www.lebow.drexel.edu/)
 
