@@ -22,11 +22,12 @@ In true R-Ladies Philly fashion, Alice and Karla amassed and visualized survey d
 ![](/img/survey.png)
 Based on these results, it seems we are on-track with our founding principles: our members most appreciate the opportunity to "learn new skills" in "a collaborative atmosphere!"
 
-## Our Bi*R*thday Cake
+## Our Bi**R**thday Cake
 
 This cake warrants a blog post section of its own. As evidence of our members' multifaceted talents, Karla made a beautiful birthday cake for R-Ladies Philly. 
 ![](/img/cake.jpg)
-We at R-Ladies Philly do not judge on appearance though, which necessitated a thorough evaluation of its texture and flavor. The cake was blueberry-studded and featured a buttery, crumby texture, and was complemented by a decadent vanilly cream-cheese frosting. Based on extensive repeated-measures testing, we found that this cake achieved an approval rating of 100%.
+We at R-Ladies Philly do not judge on appearance, which necessitated a thorough evaluation of cake texture and flavor. The cake was blueberry-studded and featured a buttery, crumby texture, and was complemented by a decadent vanilla cream-cheese frosting. Based on extensive repeated-measures testing (by yours truly), we found that this cake and frosting combination achieved an approval rating of 100% (temporal autocorrelation was accounted for in a linear mixed-effects model including subject and timepoint as random effects).
+
 
 ## A look forward to 2019
 
