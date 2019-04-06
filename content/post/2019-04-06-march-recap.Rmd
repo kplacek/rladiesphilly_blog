@@ -35,7 +35,7 @@ The 'Geographic Data Mining' group (Joy, Karla) investigated how neighborhood ec
 
 Joy and Karla found that problematic applications typically have a budget too low to support an animal, and that more efficient application processing takes place in neighborhoods with a greater percentage of school-aged children.
 
-#### @philly paws Twitter
+#### @phillypaws Twitter
 Last but not least, Alice singlehandedly took on the analysis of [PAWS' twitter account](https://twitter.com/phillypaws) data from 2018, and explored whether patterns in twitter activity were linked to application or pet information.
 
 ![Alice demonstrates that cats are popular on the @phillypaws twitter account!](/img/paws4.png)
