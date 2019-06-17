@@ -41,10 +41,8 @@ Chun is a bioinformatics scientist at the Children's Hospital of Philadelphia, w
 Alice is a computational biologist who works in pharmaceutical drug development and has lived in the Philadelphia area for the last ten years. She uses R to transform biomarker data from patients into useful insights that can help doctors make better decisions. Alice was inspired to start an R-Ladies chapter in Philadelphia after seeing a video of another R-Ladies meetup online. 
 
 ## Board Alumni
-### Katerina Placek, MSc
-<img src="/img/Katerina.jpeg";/>
-Co-Founder and Blog Chair: Jan 2018 - July 2019
+Katerina Placek, MSc  
+*Co-Founder and Blog Chair: Jan 2018 - July 2019*
 
-### Katie Cousins, PhD
-<img src="/img/Katie.jpg";/>
-Co-Founder: Jan 2018 - July 2018
+Katie Cousins, PhD  
+*Co-Founder: Jan 2018 - July 2018*
