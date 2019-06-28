@@ -1,8 +1,8 @@
 ---
-title: 'June Recap: Data Visualization'
-author: 'Katerina Placek'
+title: 'June Recap: Data Visualiztion'
+author: Katerina Placek
 date: '2019-06-27'
-slug: june-recap-2019
+slug: june-recap-data-visualiztion
 categories: []
 tags: []
 authors: []
@@ -10,6 +10,7 @@ header:
   caption: ''
   image: ''
   preview: yes
+---
 ---
 Data visualization is paramount to both understanding and presenting your data, whatever your data may be. For our June Meetup, R-Ladies Philly member *Jake Riley* led an interactive workshop to elucidate aspects of the popular `ggplot2` [package](https://ggplot2.tidyverse.org/) and share helpful tips and best practices relevant to any R user. 
 
